@@ -1,0 +1,20 @@
+https://www.youtube.com/watch?v=vzTqM04YbiY&list=PL8p2I9GklV47TMMnPzqnkCtSOS3ebr4O7&index=13
+// head and Tail Recursion 
+//Understand debugger
+//How  js works ( call stak Main)
+function fruits(){
+  
+}
+function days(){
+  colors();
+}
+function color(){
+  cosole.log('hh');
+}
+
+
+function topfunction(){
+ 
+ fruits(); 
+}
+topfunction();
