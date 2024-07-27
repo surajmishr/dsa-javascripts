@@ -1,0 +1,23 @@
+//DELETE Element in Array
+https://www.youtube.com/watch?v=w1nfy2tGP9M&list=PL8p2I9GklV47TMMnPzqnkCtSOS3ebr4O7&index=4
+// understand 
+// [10,20,30,12,19,12]
+// 10 20,12,19,92,92
+function rmoveE1(){
+
+let data  = [30,20,45,76,20,80];
+let  position = document.getElementById('position').value;
+//let position = 3
+for(let i= position; i<data.length-1;i++){
+  //console.warn(data[i])
+  data[i] = data[i+1];
+  
+  
+  
+}
+data.length = data.length-1;
+console.warn(data);
+
+}
+<input type="text" id="position" placeholder="Enter position">
+<button onclick="rmoveE1"> Remove Element </button>
